@@ -47,7 +47,7 @@ export default function Navbar() {
           transition={{ duration: 0.2 }}
           className="md:hidden flex flex-col items-center gap-6 py-6 border-b border-white/10 backdrop-blur-md bg-black/80"
         >
-          {["hero", "about", "projects", "contact"].map((section) => (
+          {["hero", "about", "project", "contact"].map((section) => (
             <a
               key={section}
               href={`#${section}`}
