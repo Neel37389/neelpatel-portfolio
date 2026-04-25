@@ -34,7 +34,7 @@ export default function Hero() {
           className="flex gap-4 justify-center"
         >
           <a
-            href="#projects"
+            href="#project"
             className="px-6 py-2 rounded-full border border-(--muted)] text-(--muted)] text-sm font-medium hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
           >
             View Projects
