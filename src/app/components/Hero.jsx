@@ -35,13 +35,13 @@ export default function Hero() {
         >
           <a
             href="#projects"
-            className="px-6 py-2 rounded-full bg-(--accent)] text-white text-sm font-medium hover:opacity-80 transition-opacity"
+            className="px-6 py-2 rounded-full border border-(--muted)] text-(--muted)] text-sm font-medium hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="px-6 py-2 rounded-full border border-(--muted)] text-(--muted)] text-sm font-medium hover:border-white hover:text-white transition-colors"
+            className="px-6 py-2 rounded-full border border-(--muted)] text-(--muted)] text-sm font-medium hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
           >
             Contact Me
           </a>

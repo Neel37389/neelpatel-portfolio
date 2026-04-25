@@ -71,14 +71,14 @@ export default function Projects() {
                 <a
                   href={project.liveUrl}
                   target="_blank"
-                  className="text-sm px-4 py-2 rounded-full bg-(--accent)] text-white hover:opacity-80 transition-opacity"
+                  className="text-sm px-4 py-2 rounded-full border border-(--muted)] text-(--muted)]  hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
                 >
                   Live
                 </a>
                 <a
                   href={project.githubUrl}
                   target="_blank"
-                  className="text-sm px-4 py-2 rounded-full border border-(--muted)] text-(--muted)] hover:border-white hover:text-white transition-colors"
+                  className="text-sm px-4 py-2 rounded-full border border-(--muted)] text-(--muted)] hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
                 >
                   GitHub
                 </a>

@@ -4,13 +4,14 @@ import { motion } from "framer-motion";
 
 const skills = [
   "JavaScript",
-  "React",
+  "React.js",
   "Next.js",
   "Tailwind CSS",
   "Supabase",
   "REST APIs",
   "Git",
   "Jest",
+  "Shadcn UI",
 ];
 
 export default function About() {
