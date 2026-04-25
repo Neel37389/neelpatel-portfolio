@@ -24,6 +24,13 @@ export default function Navbar() {
               {section}
             </a>
           ))}
+          <a
+            href="/Neel_Patel_Resume.pdf"
+            target="_blank"
+            className="text-sm capitalize text-[var(--muted)] hover:text-[var(--foreground)] hover:-translate-y-0.5 transition-all duration-300"
+          >
+            Resume
+          </a>
         </div>
         <button
           className="md:hidden flex flex-col gap-1.5"
@@ -57,6 +64,13 @@ export default function Navbar() {
               {section}
             </a>
           ))}
+          <a
+            href="/Neel_Patel_Resume.pdf"
+            target="_blank"
+            className="text-sm capitalize text-[var(--muted)] hover:text-[var(--foreground)] hover:-translate-y-0.5 transition-all duration-300"
+          >
+            Resume
+          </a>
         </motion.div>
       )}
     </div>
