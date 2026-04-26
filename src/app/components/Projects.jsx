@@ -8,7 +8,16 @@ const projects = [
     title: "AI News Dashboard",
     description:
       "A full stack news aggregator with AI powered search, saved articles, and user authentication.",
-    tags: ["Next.js", "Supabase", "Tailwind", "REST API", "Shadcn UI", "Jest"],
+    tags: [
+      "Next.js",
+      "Supabase",
+      "Tailwind",
+      "REST API",
+      "Shadcn UI",
+      "Jest",
+      "Mews API",
+      "OpenAI API",
+    ],
     liveUrl: "https://ai-news-intelligence-dashboard.vercel.app",
     githubUrl:
       "https://github.com/Neel37389/ai-news-intelligence-dashboard.git",
@@ -18,7 +27,7 @@ const projects = [
     title: "GitHub Analyzer",
     description:
       "An AI powered tool that scores and gives improvement points on all your GitHub repositories.",
-    tags: ["Next.js", "Tailwind", "AI", "GitHub API"],
+    tags: ["React.js", "Tailwind", "OpenAI API", "GitHub API"],
     liveUrl: "https://ai-resume-builder-five-nu.vercel.app",
     githubUrl: "https://github.com/Neel37389/AI-Resume-Builder.git",
   },
