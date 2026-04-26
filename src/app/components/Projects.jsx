@@ -15,7 +15,7 @@ const projects = [
       "REST API",
       "Shadcn UI",
       "Jest",
-      "Mews API",
+      "News API",
       "OpenAI API",
     ],
     liveUrl: "https://ai-news-intelligence-dashboard.vercel.app",
