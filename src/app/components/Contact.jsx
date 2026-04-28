@@ -26,9 +26,8 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-(--muted)] leading-relaxed"
         >
-          I'm currently looking for junior frontend or web developer roles. If
-          you have an opportunity or just want to connect, feel free to reach
-          out.
+          I’m currently seeking junior frontend or web developer roles. Feel
+          free to reach out for opportunities or collaborations.
         </motion.p>
 
         <motion.div
@@ -40,7 +39,7 @@ export default function Contact() {
         >
           <a
             href="mailto:neelp060@gmail.com"
-            className="px-6 py-2 rounded-full border border-(--muted)] text-(--muted)] text-sm font-medium hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
+            className="px-6 py-2 rounded-full bg-white text-black text-sm font-semibold hover:bg-gray-200 transition-colors"
           >
             Email Me
           </a>

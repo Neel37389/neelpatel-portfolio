@@ -49,7 +49,7 @@ export default function Projects() {
         >
           Projects
         </motion.h2>
-        <div className="grid grid-cols-1 md:gird-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           {projects.map((project) => (
             <motion.div
               key={project.id}
@@ -80,16 +80,16 @@ export default function Projects() {
                 <a
                   href={project.liveUrl}
                   target="_blank"
-                  className="text-sm px-4 py-2 rounded-full border border-(--muted)] text-(--muted)]  hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
+                  className="bg-white text-black text-sm px-5 py-2 rounded-full font-semibold transition-all duration-200 hover:scale-105 hover:bg-gray-200"
                 >
-                  Live
+                  🚀 Live Demo
                 </a>
                 <a
                   href={project.githubUrl}
                   target="_blank"
-                  className="text-sm px-4 py-2 rounded-full border border-(--muted)] text-(--muted)] hover:border-white hover:text-white hover:bg-(--muted) transition-colors"
+                  className="text-sm px-4 py-2 rounded-full border border-gray-600 text-gray-400 hover:border-white hover:text-white transition-colors"
                 >
-                  GitHub
+                  Code ↗
                 </a>
               </div>
             </motion.div>
